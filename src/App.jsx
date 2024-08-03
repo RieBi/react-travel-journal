@@ -4,8 +4,8 @@ import Card from "./components/Card"
 import data from "./data"
 
 function App() {
-  const cards = data.map(d => 
-    <Card {...d} />
+  const cards = data.map((d, ind)=> 
+    <Card {...d} showLine={ind < data.length - 1} />
   )
 
   return (

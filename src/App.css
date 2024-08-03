@@ -22,14 +22,53 @@ body {
 
 .cards {
   margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card {
   display: flex;
-  margin-bottom: 30px;
+}
+
+.card-details {
+  color: #2B283A;
+}
+
+.card-details p {
+  margin-bottom: 7px;
 }
 
 .card-image {
   margin-right: 19px;
   width: 8rem;
+}
+
+.card-country {
+  text-transform: uppercase;
+  font-family: Inter;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.card-maps-link {
+  color: #918E9B;
+}
+
+.card-title {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.card-description {
+  margin-top: 0;
+  font-size: .9rem;
+  line-height: 1.1rem;
+  max-width: 600px;
+}
+
+hr {
+  width: 100%;
+  max-width: 750px;
+  margin: 18px 0;
 }
